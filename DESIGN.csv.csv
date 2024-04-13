@@ -1,0 +1,14 @@
+,,,,,,
+,Entity Name: Design,,,,,
+,Design ID (PK),Varchar(50),,,,
+,Type of Designing Software,Varchar(50),,,,
+,Machine ID (FK),Varchar(50),,,,
+,Machining process,ENUM,,,,
+,Dimensions and shape,Varchar(50),,,,
+,Material selection,ENUM,,,,
+,,,,,,
+,,,,,,
+,Design ID (PK),Type of Designing Software,Machine ID (FK),Machining process,Dimensions and shape,Material selection
+,CAD9876TGH,AUTO CAD,J9876564568,"Drilling, Turning, Grinding","6*20*15, Cylindrical","Aluminium, steel, Cast Iron"
+,SDW678NBVFJH,SOLIDWORKS,K984758590,"Turning, Cutting, Milling, Boring","20*20*20, Cube","Bronze, Copper, Cast Iron"
+,AUT986BFYJ,AUTO CAD,Q578668967,"Forging, Turning, Broaching","16*23*34, Cuboid",Plastic

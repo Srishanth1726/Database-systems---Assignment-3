@@ -1,0 +1,13 @@
+,,,,
+Entity Name: Machine,,,,
+Machine ID (PK),Varchar(50),,,
+Types of Materials it can work,ENUM,,,
+Machinist ID (FK),Varchar(50),,,
+Type of the Machine,Varchar(50),,,
+Status of Machine,Varchar(50),,,
+,,,,
+,,,,
+Machine ID (PK),Types of Materials it can work,Machinist ID (FK),Type of the Machine,Status of Machine
+J9876564568,"Aluminium, steel, Cast Iron, Bronze, Tin, Nickel",RAMK2467,Lathe,Good
+K984758590,"Bronze, Copper, Cast Iron, Steel",KRISH4578,Milling machine,Good
+L864668967,"Plastic, Plastic Fibre, Glass",VISHN4567,Grinding Machine,Under Maintenance

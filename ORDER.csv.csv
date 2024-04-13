@@ -1,0 +1,13 @@
+Entity Name: Order,,,,,
+Order ID (PK),Varchar(50),,,,
+Customer ID (FK),Varchar(50),,,,
+Quantity,INT,,,,
+Design ID (FK),Varchar(50),,,,
+Order date,DATETIME,,,,
+Cost,DEC,,,,
+,,,,,
+,,,,,
+Order ID (PK),Customer ID (FK),Quantity,Design ID (FK),Order date,Cost
+17ABC986,JOH2345KJL,76,CAD9876TGH,8/11/2024,"$2,365.78 "
+17GHI876,PEGA879NGFD,18,SDW678NBVFJH,5/25/2024,"$8,523.14 "
+17QRS674,WIPRO9786BJ,67,AUT986BFYJ,9/19/2025,"$10,253.52 "

@@ -1,0 +1,12 @@
+,,,,
+Entity Name: Machinist,,,,
+Machinist ID (PK),Varchar(50),,,
+Machinist Contact,Varchar(50),,,
+Machinist skills,ENUM,,,
+Machine ID (FK) ,Varchar(100),,,
+Tools,ENUM,,,
+,,,,
+Machinist ID (PK),Machinist Contact,Machinist skills,Machine ID (FK) ,Tools
+J9876564568,223-145-8765,Lathe & Drilling,U8876564568,"Drill bits, boring tools, Facing tool, threading tool"
+K984758590,156-987-1234,"Boring, Grinding & Lathe",G6784758590,"Saw, chisel, level guage, Grinding wheel, Surface grinder"
+L864668967,890-657-3214,"Turning, Milling & Broaching",C3264668967,"Vernier callipers, turning tools, knurling tool, chamfering tool, endmills, hollow mills, saw mill"
